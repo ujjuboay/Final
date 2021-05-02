@@ -1,1 +1,1 @@
-web app:emotionnlp
+web: gunicorn app:emotionnlp
