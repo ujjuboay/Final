@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for, session
 from flask_socketio import SocketIO, join_room, leave_room, emit
 from flask_session import Session
 import pickle
+import gunicorn
 
 with open('sent.pkl', 'rb') as pickle_in:
      unpickled_sent = pickle.load(pickle_in)
