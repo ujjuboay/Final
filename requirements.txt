@@ -5,3 +5,4 @@ python-socketio==4.6.0
 Flask-Session
 eventlet
 gunicorn
+sklearn
